@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+void main()
+{
+    int a=10;
+    printf ("%d",sizeof(a));
+
+    return 0;
+}
+
+.....................................
+
+#include <stdio.h>
+
+void main()
+{
+    char a;
+    printf ("%d",sizeof(a));  //we use %d for return size of char otherwise use %c. 
+
+    return 0;
+}
+
+....................................
+#include <stdio.h>
+
+void main()
+{
+    float a;
+    printf ("%d",sizeof(a));  //we use %d for return size of float otherwise use %f. 
+
+    return 0;
+}
