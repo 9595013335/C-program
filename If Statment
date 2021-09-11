@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int password;
+    printf("Enter Password  ");
+    scanf("%d",&password);
+    
+    if(password==2838)
+    {
+        printf("Welcome");
+    }
+    printf("\nSorry Wrong Paassword ");     // code will print both WELCOME & SORRY WRONG PASSWORD 
+    return 0;
+}
