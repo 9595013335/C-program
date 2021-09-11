@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+
+int main() {
+  int a=10;          // = is a simple  Assignment operator
+  
+  printf("\n%d",a);    //10   
+  
+  printf("\n%d",++a);  // 11                    ....Pre- Increment
+  
+  printf("\n%d",a++);  // 11-->12               ....Post- Increment
+  
+  printf("\n%d",--a);  // 11                    ....Pre- Decrement
+  
+  printf("\n%d",a--);  // 11-->10               ....Post- Decrement
+  
+  a+=20 ;              //10+20=30               ....Compound Assigenment 
+  printf("\n%d",a); 
+    
+    return 0;
+}
