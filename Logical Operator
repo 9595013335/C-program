@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    
+    int a=50,b=20;
+    
+    printf("%d\n",(a>b)&&(a<b));     // Logical And Operator
+    
+    printf("%d\n",(a>b)||(a<b));     // Logical OR Operator
+    
+    printf("%d\n",!(a>b));           // LOgical Not Operator
+    
+    return 0;
