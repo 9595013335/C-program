@@ -1,0 +1,20 @@
+Q. wap to print if person age is greater than or equal to 18 then it is applicable otherwise it is Not applicable.
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    int age;
+    printf("Enter age of person  ");
+    scanf("%d",&age);
+    
+    if(age>=18)
+    {
+        printf("Eligibal to Voting");
+    }
+    else
+    printf("\n Not Eligibal to Voting ");
+    return 0;
+}
