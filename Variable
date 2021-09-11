@@ -8,9 +8,11 @@ void main()
    
    static int c;  // static Variable
    
-   printf("\n %d",a);
-   printf("\n %d",b);
-   printf("\n %d",c);
+   printf("\n %d",a);     // 0 value
+   
+   printf("\n %d",b);    // Garbage value
+   
+   printf("\n %d",c);   // 0 value
 
     return 0;
 }
