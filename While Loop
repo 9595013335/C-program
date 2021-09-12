@@ -1,0 +1,14 @@
+Q. Write a program to print 1 to 100 no using While Loop.
+
+#include<stdio.h>
+
+int main()
+{
+    int a=1;
+    
+    while(a<=100)
+    {
+        printf("%d ",a);
+        a++;
+    }
+}
